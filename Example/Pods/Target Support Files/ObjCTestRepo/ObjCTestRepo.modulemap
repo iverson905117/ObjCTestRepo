@@ -1,0 +1,6 @@
+framework module ObjCTestRepo {
+  umbrella header "ObjCTestRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}

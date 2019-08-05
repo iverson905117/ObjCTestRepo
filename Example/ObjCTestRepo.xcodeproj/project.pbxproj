@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		036B50995587FE6FE45D4032 /* Pods-ObjCTestRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTestRepo_Example.release.xcconfig"; path = "Target Support Files/Pods-ObjCTestRepo_Example/Pods-ObjCTestRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2BC9EE6C366AB2B8F687DB2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2BC9EE6C366AB2B8F687DB2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		57838F7796E695D56F85ED4B /* Pods-ObjCTestRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTestRepo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ObjCTestRepo_Tests/Pods-ObjCTestRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58C31A09287B2409EFAFD27A /* Pods-ObjCTestRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTestRepo_Tests.release.xcconfig"; path = "Target Support Files/Pods-ObjCTestRepo_Tests/Pods-ObjCTestRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ObjCTestRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCTestRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +63,10 @@
 		6A6600D9C22710A1119F8CCF /* Pods_ObjCTestRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCTestRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9959CA8C71AE4BDF0A9D438A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9959CA8C71AE4BDF0A9D438A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BD0C080D4CDF3F84D6D0D893 /* Pods-ObjCTestRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTestRepo_Example.debug.xcconfig"; path = "Target Support Files/Pods-ObjCTestRepo_Example/Pods-ObjCTestRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEDB20078783251E04D39739 /* Pods_ObjCTestRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCTestRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3187C99CA1AD04A7724F2C1 /* ObjCTestRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ObjCTestRepo.podspec; path = ../ObjCTestRepo.podspec; sourceTree = "<group>"; };
+		F3187C99CA1AD04A7724F2C1 /* ObjCTestRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ObjCTestRepo.podspec; path = ../ObjCTestRepo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				57838F7796E695D56F85ED4B /* Pods-ObjCTestRepo_Tests.debug.xcconfig */,
 				58C31A09287B2409EFAFD27A /* Pods-ObjCTestRepo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,7 +247,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = vic;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HZFSZV43UE;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = HZFSZV43UE;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -498,6 +501,7 @@
 			baseConfigurationReference = BD0C080D4CDF3F84D6D0D893 /* Pods-ObjCTestRepo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZFSZV43UE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjCTestRepo/ObjCTestRepo-Prefix.pch";
 				INFOPLIST_FILE = "ObjCTestRepo/ObjCTestRepo-Info.plist";
@@ -514,6 +518,7 @@
 			baseConfigurationReference = 036B50995587FE6FE45D4032 /* Pods-ObjCTestRepo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZFSZV43UE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjCTestRepo/ObjCTestRepo-Prefix.pch";
 				INFOPLIST_FILE = "ObjCTestRepo/ObjCTestRepo-Info.plist";
@@ -530,6 +535,7 @@
 			baseConfigurationReference = 57838F7796E695D56F85ED4B /* Pods-ObjCTestRepo_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HZFSZV43UE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -555,6 +561,7 @@
 			baseConfigurationReference = 58C31A09287B2409EFAFD27A /* Pods-ObjCTestRepo_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HZFSZV43UE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'ObjCTestRepo_Example' do
-  pod 'ObjCTestRepo', :path => '../'
+  pod 'ObjCTestRepo', :path => '/Users/cpkang/Desktop/ObjCTestRepo'
 
   target 'ObjCTestRepo_Tests' do
     inherit! :search_paths

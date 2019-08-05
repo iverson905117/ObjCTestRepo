@@ -7,6 +7,7 @@
 //
 
 #import "DemoViewController.h"
+#import <MyClass.h>
 
 @interface DemoViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [MyClass printHelloWorld];
 }
 
 - (void)didReceiveMemoryWarning
