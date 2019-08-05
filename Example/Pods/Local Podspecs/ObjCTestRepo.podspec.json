@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ObjCTestRepo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vic/ObjCTestRepo",
+  "homepage": "https://github.com/iverson905117/ObjCTestRepo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "vic": "iverson905117@gmail.com"
   },
   "source": {
-    "git": "https://github.com/vic/ObjCTestRepo.git",
+    "git": "https://github.com/iverson905117/ObjCTestRepo.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,7 +7,7 @@
 //
 
 #import "DemoViewController.h"
-#import <MyClass.h>
+#import <MyClass_ObjC.h>
 
 @interface DemoViewController ()
 
@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [MyClass printHelloWorld];
+    [MyClass_ObjC printHelloWorld];
 }
 
 - (void)didReceiveMemoryWarning

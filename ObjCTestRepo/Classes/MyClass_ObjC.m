@@ -1,17 +1,17 @@
 //
-//  MyClass.m
+//  MyClass_ObjC.m
 //  ObjCTestRepo
 //
 //  Created by cpkang on 2019/8/5.
 //
 
-#import "MyClass.h"
+#import "MyClass_ObjC.h"
 
-@implementation MyClass
+@implementation MyClass_ObjC
 
 + (void)printHelloWorld {
     
-    NSLog(@"Hello world");
+    NSLog(@"Hello world!");
 }
 
 @end

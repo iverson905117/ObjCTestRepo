@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		173C540FCB2EED797174F59DBB1B1E39 /* Pods-ObjCTestRepo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123FA6EA34247B21E36A8646830D7C /* Pods-ObjCTestRepo_Example-dummy.m */; };
+		1C7EB4BDAE4DBCBBA865E94A22AEFB82 /* ObjCTestRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C404083F415C2F3E123AEE871F8CBC4 /* ObjCTestRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCCC9235263A9632514CA62F37D653A /* MyClass_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6C14F712D194EE6D26FE0B10860B9 /* MyClass_ObjC.m */; };
 		262529C702A8411CBFF12CE9908F291E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		41628D25FEFD4B7267CE9442E8B98F75 /* ObjCTestRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3364A7A1EB9F81D68825F88F31CD36 /* ObjCTestRepo-dummy.m */; };
 		4EA504376F0935091105D326C0635EA5 /* Pods-ObjCTestRepo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C37F231E89005DBAE9266A76E52256A /* Pods-ObjCTestRepo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E02B95D64AF1D12E3F5850E62B3A45 /* ObjCTestRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C749EF644397E391F555B7512F8CBB5B /* ObjCTestRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9642E6A546955B51D4EFA28D6270055A /* MyClass_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0187FC4E19C2E2B0F48DBA6C6D3A31 /* MyClass_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A795AAA31741E737A98668B93859C4F1 /* Pods-ObjCTestRepo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B889ADF4F54193F95DC84BA97C061F /* Pods-ObjCTestRepo_Tests-dummy.m */; };
-		B4894C307904DBD8F0B31AA81AB53D3B /* MyClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A449777F06DF3AD397207AEB895CE9 /* MyClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5ED6D739527BB002F151181A043DD9B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 91825A10122C8CA7B80A9D2826326B1C /* MyClass.m */; };
 		DA0FA5887558D1859A95663650E9CC0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC00FD02E87371138010EE144441594B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DDA016E29C5499F62F7451620845FDA5 /* ObjCTestRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787C38481C829BCCE4DBE87FEE7D8D8 /* ObjCTestRepo-dummy.m */; };
 		DDD749C66621FCEAAC3BF6EFA1A07FCB /* Pods-ObjCTestRepo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6EBCAC67451C2CE66E0ABBFC90986B /* Pods-ObjCTestRepo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,38 +39,38 @@
 
 /* Begin PBXFileReference section */
 		01EDFAB22E1AFD4685F1F2E71E586A68 /* Pods-ObjCTestRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTestRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		09A94F3B3D29DF1EAB1B247DFF293AB0 /* ObjCTestRepo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjCTestRepo-Info.plist"; sourceTree = "<group>"; };
+		16A883FB002834CD2386B389C285F670 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1AAC69DCB6DB5264DE15FED09A3B3520 /* Pods-ObjCTestRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCTestRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D3364A7A1EB9F81D68825F88F31CD36 /* ObjCTestRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjCTestRepo-dummy.m"; sourceTree = "<group>"; };
 		2E65747B746A7464984F4D4183F5BD69 /* Pods-ObjCTestRepo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCTestRepo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E6F9E6E0A07E79C417635B8223CBC50 /* Pods-ObjCTestRepo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjCTestRepo_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		344AC95A57DFA46ACE013A0CCE84E6F2 /* Pods-ObjCTestRepo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTestRepo_Tests-Info.plist"; sourceTree = "<group>"; };
+		38FC50EB3D66F179CFF0ECD5E584DAAA /* ObjCTestRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjCTestRepo.modulemap; sourceTree = "<group>"; };
 		3C37F231E89005DBAE9266A76E52256A /* Pods-ObjCTestRepo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjCTestRepo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3DB6C14F712D194EE6D26FE0B10860B9 /* MyClass_ObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyClass_ObjC.m; path = ObjCTestRepo/Classes/MyClass_ObjC.m; sourceTree = "<group>"; };
 		416BF6B02C048A2799893A2F0F2B0E2C /* Pods-ObjCTestRepo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTestRepo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		425CFF85934B172F0792FC8FEF2C3E48 /* ObjCTestRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjCTestRepo.modulemap; sourceTree = "<group>"; };
+		41FF7BB78D57F4F305B5B7734622D281 /* ObjCTestRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCTestRepo-prefix.pch"; sourceTree = "<group>"; };
 		5528F8C22D7F19039C0C7A6F26D1CF84 /* ObjCTestRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjCTestRepo.framework; path = ObjCTestRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5787C38481C829BCCE4DBE87FEE7D8D8 /* ObjCTestRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjCTestRepo-dummy.m"; sourceTree = "<group>"; };
 		5ED7F8E79FC350A2DB68274EA894D5F8 /* Pods_ObjCTestRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjCTestRepo_Tests.framework; path = "Pods-ObjCTestRepo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F169A4B1A2848A7FE779C0FC5FDFD0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64B33FD9AB062B7E09E546E68FAA4444 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		772C03BC2EFD826418DA8405A1572D7E /* Pods-ObjCTestRepo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTestRepo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C404083F415C2F3E123AEE871F8CBC4 /* ObjCTestRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCTestRepo-umbrella.h"; sourceTree = "<group>"; };
 		84123FA6EA34247B21E36A8646830D7C /* Pods-ObjCTestRepo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCTestRepo_Example-dummy.m"; sourceTree = "<group>"; };
-		91825A10122C8CA7B80A9D2826326B1C /* MyClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyClass.m; path = ObjCTestRepo/Classes/MyClass.m; sourceTree = "<group>"; };
-		95891138CB53394E733C098E1E4C0D86 /* ObjCTestRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjCTestRepo.xcconfig; sourceTree = "<group>"; };
 		95B889ADF4F54193F95DC84BA97C061F /* Pods-ObjCTestRepo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCTestRepo_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A19A975E748C931223B45109494D1F1E /* Pods-ObjCTestRepo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjCTestRepo_Example.modulemap"; sourceTree = "<group>"; };
 		A46ACF3B54297CA448C54A387A63AD6E /* Pods-ObjCTestRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTestRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7DD0874915EAEB64D23A5CEF0A45EE1 /* Pods-ObjCTestRepo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjCTestRepo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB9769A3B8974F6A563310B72CA3F5FC /* ObjCTestRepo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ObjCTestRepo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1D3F6D68A71898C333FF433AD33AB3C /* Pods-ObjCTestRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTestRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B325EF18E961FF060DA9C9CD3FA0E852 /* ObjCTestRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCTestRepo-prefix.pch"; sourceTree = "<group>"; };
 		BC705AA5D4DF8E51481FBA4E943988A2 /* Pods_ObjCTestRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjCTestRepo_Example.framework; path = "Pods-ObjCTestRepo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C749EF644397E391F555B7512F8CBB5B /* ObjCTestRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCTestRepo-umbrella.h"; sourceTree = "<group>"; };
-		D163AACCA8F28BB5C2672FDBD8F3A0C0 /* ObjCTestRepo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ObjCTestRepo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF0187FC4E19C2E2B0F48DBA6C6D3A31 /* MyClass_ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyClass_ObjC.h; path = ObjCTestRepo/Classes/MyClass_ObjC.h; sourceTree = "<group>"; };
 		D3B005B6C7A06390003EC2A498C939EE /* Pods-ObjCTestRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTestRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1E99DB61750A3B7E76C140CEC1ACD22 /* ObjCTestRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjCTestRepo.xcconfig; sourceTree = "<group>"; };
 		E280D34530966572E69F51D6BE798B07 /* Pods-ObjCTestRepo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTestRepo_Example-Info.plist"; sourceTree = "<group>"; };
-		E4A449777F06DF3AD397207AEB895CE9 /* MyClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyClass.h; path = ObjCTestRepo/Classes/MyClass.h; sourceTree = "<group>"; };
-		E7E380E74CB73CC1C9BD05478910163F /* ObjCTestRepo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjCTestRepo-Info.plist"; sourceTree = "<group>"; };
 		EB6EBCAC67451C2CE66E0ABBFC90986B /* Pods-ObjCTestRepo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjCTestRepo_Example-umbrella.h"; sourceTree = "<group>"; };
-		EC282491655C609C50948822CC83EC00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		36D23F32566F9F536A51ACBAF9181FE0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				730EB81A15FE30B0D63136389246877A /* ObjCTestRepo */,
+				9A46CE1F92D4B55414A099723EA60DDE /* ObjCTestRepo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -118,14 +118,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		42EC677CEE7FD6EBFA8ACB90391B13D2 /* Pod */ = {
+		5175280F9DAC34A5FEEE83271277B39E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EC282491655C609C50948822CC83EC00 /* LICENSE */,
-				D163AACCA8F28BB5C2672FDBD8F3A0C0 /* ObjCTestRepo.podspec */,
-				6F169A4B1A2848A7FE779C0FC5FDFD0E /* README.md */,
+				16A883FB002834CD2386B389C285F670 /* LICENSE */,
+				AB9769A3B8974F6A563310B72CA3F5FC /* ObjCTestRepo.podspec */,
+				64B33FD9AB062B7E09E546E68FAA4444 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		6059894CE6C537FAA2AADF3537936413 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38FC50EB3D66F179CFF0ECD5E584DAAA /* ObjCTestRepo.modulemap */,
+				E1E99DB61750A3B7E76C140CEC1ACD22 /* ObjCTestRepo.xcconfig */,
+				2D3364A7A1EB9F81D68825F88F31CD36 /* ObjCTestRepo-dummy.m */,
+				09A94F3B3D29DF1EAB1B247DFF293AB0 /* ObjCTestRepo-Info.plist */,
+				41FF7BB78D57F4F305B5B7734622D281 /* ObjCTestRepo-prefix.pch */,
+				7C404083F415C2F3E123AEE871F8CBC4 /* ObjCTestRepo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ObjCTestRepo";
 			sourceTree = "<group>";
 		};
 		6DA7B4055E42D550957367935C576EFA /* Pods-ObjCTestRepo_Example */ = {
@@ -145,18 +159,6 @@
 			path = "Target Support Files/Pods-ObjCTestRepo_Example";
 			sourceTree = "<group>";
 		};
-		730EB81A15FE30B0D63136389246877A /* ObjCTestRepo */ = {
-			isa = PBXGroup;
-			children = (
-				E4A449777F06DF3AD397207AEB895CE9 /* MyClass.h */,
-				91825A10122C8CA7B80A9D2826326B1C /* MyClass.m */,
-				42EC677CEE7FD6EBFA8ACB90391B13D2 /* Pod */,
-				A9FBD812385A1E30A4FC72DB1DCF6B01 /* Support Files */,
-			);
-			name = ObjCTestRepo;
-			path = /Users/cpkang/Desktop/ObjCTestRepo;
-			sourceTree = "<absolute>";
-		};
 		83DE6B89ABA913389F3593166CF5E37E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,19 +169,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9FBD812385A1E30A4FC72DB1DCF6B01 /* Support Files */ = {
+		9A46CE1F92D4B55414A099723EA60DDE /* ObjCTestRepo */ = {
 			isa = PBXGroup;
 			children = (
-				425CFF85934B172F0792FC8FEF2C3E48 /* ObjCTestRepo.modulemap */,
-				95891138CB53394E733C098E1E4C0D86 /* ObjCTestRepo.xcconfig */,
-				5787C38481C829BCCE4DBE87FEE7D8D8 /* ObjCTestRepo-dummy.m */,
-				E7E380E74CB73CC1C9BD05478910163F /* ObjCTestRepo-Info.plist */,
-				B325EF18E961FF060DA9C9CD3FA0E852 /* ObjCTestRepo-prefix.pch */,
-				C749EF644397E391F555B7512F8CBB5B /* ObjCTestRepo-umbrella.h */,
+				BF0187FC4E19C2E2B0F48DBA6C6D3A31 /* MyClass_ObjC.h */,
+				3DB6C14F712D194EE6D26FE0B10860B9 /* MyClass_ObjC.m */,
+				5175280F9DAC34A5FEEE83271277B39E /* Pod */,
+				6059894CE6C537FAA2AADF3537936413 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ObjCTestRepo";
-			sourceTree = "<group>";
+			name = ObjCTestRepo;
+			path = /Users/cpkang/Desktop/ObjCTestRepo;
+			sourceTree = "<absolute>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
@@ -235,12 +235,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC792E6528A09CF517A6D21E3F2D578F /* Headers */ = {
+		8B90A20BAE63C3452C822E49CBABFF1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4894C307904DBD8F0B31AA81AB53D3B /* MyClass.h in Headers */,
-				67E02B95D64AF1D12E3F5850E62B3A45 /* ObjCTestRepo-umbrella.h in Headers */,
+				9642E6A546955B51D4EFA28D6270055A /* MyClass_ObjC.h in Headers */,
+				1C7EB4BDAE4DBCBBA865E94A22AEFB82 /* ObjCTestRepo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +297,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6686B176C97DF4BE1B662D35BA89CF0 /* Build configuration list for PBXNativeTarget "ObjCTestRepo" */;
 			buildPhases = (
-				CC792E6528A09CF517A6D21E3F2D578F /* Headers */,
-				5EA513B33882F3B473E6B745DE812B68 /* Sources */,
+				8B90A20BAE63C3452C822E49CBABFF1F /* Headers */,
+				F2327D998EDF85CD0DF67FBA72F0DC2D /* Sources */,
 				1F7433B232C8C71157F326D3447A64D1 /* Frameworks */,
 				2BB2DFED2AB660C8C10E4DB026D1C290 /* Resources */,
 			);
@@ -364,15 +364,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5EA513B33882F3B473E6B745DE812B68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5ED6D739527BB002F151181A043DD9B /* MyClass.m in Sources */,
-				DDA016E29C5499F62F7451620845FDA5 /* ObjCTestRepo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		686F1E10F9A8552C3DA2F6355CCC1680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +377,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A795AAA31741E737A98668B93859C4F1 /* Pods-ObjCTestRepo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2327D998EDF85CD0DF67FBA72F0DC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCCC9235263A9632514CA62F37D653A /* MyClass_ObjC.m in Sources */,
+				41628D25FEFD4B7267CE9442E8B98F75 /* ObjCTestRepo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +409,7 @@
 /* Begin XCBuildConfiguration section */
 		0C450BEF108E3B426A49016C4C7CFECE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95891138CB53394E733C098E1E4C0D86 /* ObjCTestRepo.xcconfig */;
+			baseConfigurationReference = E1E99DB61750A3B7E76C140CEC1ACD22 /* ObjCTestRepo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -474,7 +474,7 @@
 		};
 		2FD0BBDE49877EE88839635E1EA140BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95891138CB53394E733C098E1E4C0D86 /* ObjCTestRepo.xcconfig */;
+			baseConfigurationReference = E1E99DB61750A3B7E76C140CEC1ACD22 /* ObjCTestRepo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

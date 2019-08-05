@@ -1,5 +1,5 @@
 //
-//  MyClass.h
+//  MyClass_ObjC.h
 //  ObjCTestRepo
 //
 //  Created by cpkang on 2019/8/5.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyClass : NSObject
+@interface MyClass_ObjC : NSObject
 
 + (void)printHelloWorld;
 

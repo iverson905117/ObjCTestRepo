@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "MyClass.h"
+#import "MyClass_ObjC.h"
 
 FOUNDATION_EXPORT double ObjCTestRepoVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjCTestRepoVersionString[];
